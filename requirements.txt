@@ -1,0 +1,4 @@
+web
+psycopg2
+json2html
+sport-activities-features

@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" width="300" src=".git/images/logo.png">
+  <img alt="logo" width="300" src=".github/images/logo.png">
 </p>
 
 ## Dodatno gradivo za vaje pri predmetu Orodja za razvoj aplikacij

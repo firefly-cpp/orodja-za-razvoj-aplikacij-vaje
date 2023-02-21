@@ -49,3 +49,7 @@ Potrebno je izdelati tudi spletno stran v izbranem ogrodju in jo opisati v semin
 | 15  | Angular       | https://angular.io/                         | 3             |
 | 16  | Preact        | https://preactjs.com/                       | 3             |
 | 17  | Meteor.js     | https://www.meteor.com/                     | 3             |
+| 18  | Cherrypy      | https://docs.cherrypy.dev/en/latest/        | 2             |
+| 19  | Mojolicious   | https://mojolicious.org/                    | 2             |
+| 20  | Catalyst      | http://catalyst.perl.org/                   | 2             |
+| 21  | Genie         | https://genieframework.com/                 | 3             |

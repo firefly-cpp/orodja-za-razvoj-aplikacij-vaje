@@ -1,4 +1,5 @@
 <p align="center">
+Orodja za razvoj aplikacij (vaje) 2023/2024 <br>
   <img alt="logo" width="300" src=".github/images/logo.png">
 </p>
 

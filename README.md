@@ -7,7 +7,7 @@
 
 ## Namestitev Pythona in IDE-ja
 
-[Podrobna navodila za Windows](https://github.com/firefly-cpp/portali-in-sistemi-znanja/blob/main/podrobna-navodila/WINDOWS.md)
+[Podrobna navodila za Windows](https://github.com/firefly-cpp/portali-in-sistemi-znanja/blob/main/podrobna-navodila/WINDOWS.md)  
 [Podrobna navodila za Linux](https://github.com/firefly-cpp/portali-in-sistemi-znanja/blob/main/podrobna-navodila/LINUX.md)
 
 ## Literatura

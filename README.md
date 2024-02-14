@@ -1,5 +1,5 @@
 <p align="center">
-Orodja za razvoj aplikacij (vaje) 2023/2024 <br>
+<h3>Orodja za razvoj aplikacij (vaje) 2023/2024</h3> <br>
   <img alt="logo" width="300" src=".github/images/logo.png">
 </p>
 
@@ -13,6 +13,8 @@ Orodja za razvoj aplikacij (vaje) 2023/2024 <br>
 ## Literatura
 
 [1] I. Fister ml., Š. Pečnik, S. Karakatič. Priročnik za računalniške vaje pri predmetu Orodja za razvoj aplikacij. Drugo učno gradivo. Maribor : Fakulteta za elektrotehniko, računalništvo in informatiko. Pridobljeno s: [https://dk.um.si/IzpisGradiva.php?lang=slv&id=78758](https://dk.um.si/IzpisGradiva.php?lang=slv&id=78758), 2021.
+
+## Licenca
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 

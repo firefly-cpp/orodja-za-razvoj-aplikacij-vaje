@@ -1,6 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
+
 def GUI():
     app = QApplication(sys.argv)
     w = QWidget()

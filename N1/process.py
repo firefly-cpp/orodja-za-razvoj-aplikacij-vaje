@@ -33,7 +33,7 @@ class Rezultat(object):
             skupni_cas):
         self.ime_tekmovalca = ime_tekmovalca
         self.uvrstitev_spol = uvrstitev_spol
-        self.uvrstitev_kategorija = kategorija
+        self.uvrstitev_kategorija = uvrstitev_kategorija
         self.uvrstitev_skupna = uvrstitev_skupna
         self.bib = bib
         self.kategorija = kategorija
@@ -75,29 +75,30 @@ zacetek = datetime.datetime.now()
 for i in range(len(datoteke_csv)):
     rezultati = []
     kraj, izvedba = get_kraj_izvedba(datoteke_csv[i])
-    with open(pot_do_datotek + "/" + datoteke_csv[i], 'r') as file:
+    with open(pot_do_datotek + "/" + datoteke_csv[i], 'r', encoding='utf-8') as file:
         datoteka = csv.DictReader(file)
         for vrstica in datoteka:
             rezultati.append(
                 Rezultat(
-                    if_missing(
-                        vrstica['name']), if_missing(
-                        vrstica['genderRank']), if_missing(
-                        vrstica['divRank']), if_missing(
-                        vrstica['overallRank']), if_missing(
-                            vrstica['bib']), if_missing(
-                                vrstica['division']), if_missing(
-                                    vrstica['age']), if_missing(
-                                        vrstica['state']), if_missing(
-                                            vrstica['country']), if_missing(
-                                                vrstica['profession']), if_missing(
-                                                    vrstica['points']), if_missing(
-                                                        vrstica['swim']), if_missing(
-                                                            vrstica['t1']), if_missing(
-                                                                vrstica['bike']), if_missing(
-                                                                    vrstica['t2']), if_missing(
-                                                                        vrstica['run']), if_missing(
-                                                                            vrstica['overall'])))
+                    if_missing(vrstica['name']),
+                    if_missing(vrstica['genderRank']),
+                    if_missing(vrstica['divRank']),
+                    if_missing(vrstica['overallRank']),
+                    if_missing(vrstica['bib']),
+                    if_missing(vrstica['division']),
+                    if_missing(vrstica['age']),
+                    if_missing(vrstica['state']),
+                    if_missing(vrstica['country']),
+                    if_missing(vrstica['profession']),
+                    if_missing(vrstica['points']),
+                    if_missing(vrstica['swim']),
+                    if_missing(vrstica['t1']),
+                    if_missing(vrstica['bike']),
+                    if_missing(vrstica['t2']),
+                    if_missing(vrstica['run']),
+                    if_missing(vrstica['overall'])
+                )
+            )
     vsi_rezultati.append(Tekmovanje(kraj, izvedba, rezultati))
 konec = datetime.datetime.now()
 
@@ -153,10 +154,10 @@ try:
     print(count, "Uspesno vneseno.")
 
 except (Exception, psycopg2.Error) as error:
-    if(connection):
+    if (connection):
         print("Napaka", error)
 finally:
-    if(connection):
+    if (connection):
         cursor.close()
         connection.close()
         print("Povezava z bazo prekinjena.")

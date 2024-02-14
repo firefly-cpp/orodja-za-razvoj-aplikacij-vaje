@@ -1,8 +1,5 @@
 import web
-
 import json
-import yaml
-
 import psycopg2
 
 con = psycopg2.connect(user="uporabnik",
@@ -31,14 +28,12 @@ class Tekmovalec:
                 "SELECT * FROM rezultat2 WHERE ID=%(id)s", {'id': t_id})
 
             while True:
-
                 row = cur.fetchone()
 
                 if row is None:
                     a = {'skupni_cas': 'empty'}
                     odgovor = json.dumps(a)
                     return (odgovor)
-                    break
                 a = {'skupni_cas': row[17]}
                 odgovor = json.dumps(a)
                 return (odgovor)
@@ -55,20 +50,19 @@ class Tekmovalci:
                 "SELECT ID, cas_plavanja, cas_kolesarjenja, cas_teka, skupni_cas FROM rezultat2 LIMIT 2000")
 
             while True:
-
                 glava = (
                     'ID',
                     'cas_plavanja',
                     'cas_kolesarjenja',
                     'cas_teka',
                     'skupni_cas')
-                rezultati = []
 
+                rezultati = []
                 for vrstica in cur.fetchall():
                     rezultati.append(dict(zip(glava, vrstica)))
                 break
 
-        return(json.dumps(rezultati, indent=2))
+        return (json.dumps(rezultati, indent=2))
 
 
 if __name__ == "__main__":

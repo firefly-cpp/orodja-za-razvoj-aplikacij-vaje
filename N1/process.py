@@ -33,7 +33,7 @@ class Rezultat(object):
             skupni_cas):
         self.ime_tekmovalca = ime_tekmovalca
         self.uvrstitev_spol = uvrstitev_spol
-        self.uvrstitev_kategorija = kategorija
+        self.uvrstitev_kategorija = uvrstitev_kategorija
         self.uvrstitev_skupna = uvrstitev_skupna
         self.bib = bib
         self.kategorija = kategorija

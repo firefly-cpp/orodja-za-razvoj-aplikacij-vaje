@@ -53,3 +53,9 @@ Potrebno je izdelati tudi spletno stran v izbranem ogrodju in jo opisati v semin
 | 19  | Mojolicious   | Perl             | https://mojolicious.org/                    | 2             |
 | 20  | Catalyst      | Perl             | http://catalyst.perl.org/                   | 2             |
 | 21  | Genie         | Julia            | https://genieframework.com/                 | 3             |
+| 22  | Spring        | Java             | https://spring.io/                          | 2             |
+| 23  | PLAY          | Java, Scala      | https://www.playframework.com/              | 3             |
+| 24  | Express.js    | JavaScript       | https://expressjs.com/                      | 2             |
+| 25  | Next.js       | JavaScript       | https://nextjs.org/                         | 3             |
+| 26  | FastAPI       | Python           | https://fastapi.tiangolo.com/               | 2             |
+| 27  | CakePHP       | PHP              | https://cakephp.org/                        | 3             |

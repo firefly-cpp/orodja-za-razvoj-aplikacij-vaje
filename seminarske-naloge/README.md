@@ -30,26 +30,26 @@ Potrebno je izdelati tudi spletno stran v izbranem ogrodju in jo opisati v semin
 
 ## Seznam seminarskih nalog
 
-| ID  | Tema          | Spletna stran                               | Št. študentov |
-|-----|---------------|---------------------------------------------|---------------|
-| 1   | Django        | https://www.djangoproject.com/              | 3             |
-| 2   | web.py        | https://webpy.org/                          | 2             |
-| 3   | Flask         | https://flask.palletsprojects.com/en/2.2.x/ | 2             |
-| 4   | Ruby on rails | https://rubyonrails.org/                    | 3             |
-| 5   | Hanami        | https://hanamirb.org/                       | 2             |
-| 6   | Yesod         | https://www.yesodweb.com/                   | 2             |
-| 7   | CodeIgniter   | https://codeigniter.com/                    | 3             |
-| 8   | Laravel       | https://laravel.com/                        | 3             |
-| 9   | Phoenix       | https://www.phoenixframework.org/           | 3             |
-| 10  | Symfony       | https://symfony.com/                        | 2             |
-| 11  | React         | https://reactjs.org/                        | 3             |
-| 12  | Vue.js        | https://vuejs.org/                          | 3             |
-| 13  | ember         | https://emberjs.com/                        | 3             |
-| 14  | Svelte        | https://svelte.dev/                         | 3             |
-| 15  | Angular       | https://angular.io/                         | 3             |
-| 16  | Preact        | https://preactjs.com/                       | 3             |
-| 17  | Meteor.js     | https://www.meteor.com/                     | 3             |
-| 18  | Cherrypy      | https://docs.cherrypy.dev/en/latest/        | 2             |
-| 19  | Mojolicious   | https://mojolicious.org/                    | 2             |
-| 20  | Catalyst      | http://catalyst.perl.org/                   | 2             |
-| 21  | Genie         | https://genieframework.com/                 | 3             |
+| ID  | Tema          | Programski jezik | Spletna stran                               | Št. študentov |
+|-----|---------------|------------------|---------------------------------------------|---------------|
+| 1   | Django        | Python           | https://www.djangoproject.com/              | 3             |
+| 2   | web.py        | Python           | https://webpy.org/                          | 2             |
+| 3   | Flask         | Python           | https://flask.palletsprojects.com/en/2.2.x/ | 2             |
+| 4   | Ruby on rails | Ruby             | https://rubyonrails.org/                    | 3             |
+| 5   | Hanami        | Ruby             | https://hanamirb.org/                       | 2             |
+| 6   | Yesod         | Haskell          | https://www.yesodweb.com/                   | 2             |
+| 7   | CodeIgniter   | PHP              | https://codeigniter.com/                    | 3             |
+| 8   | Laravel       | PHP              | https://laravel.com/                        | 3             |
+| 9   | Phoenix       | Elixir           | https://www.phoenixframework.org/           | 3             |
+| 10  | Symfony       | PHP              | https://symfony.com/                        | 2             |
+| 11  | React         | JavaScript       | https://reactjs.org/                        | 3             |
+| 12  | Vue.js        | JavaScript       | https://vuejs.org/                          | 3             |
+| 13  | ember         | JavaScript       | https://emberjs.com/                        | 3             |
+| 14  | Svelte        | JavaScript       | https://svelte.dev/                         | 3             |
+| 15  | Angular       | JavaScript       | https://angular.io/                         | 3             |
+| 16  | Preact        | JavaScript       | https://preactjs.com/                       | 3             |
+| 17  | Meteor.js     | JavaScript       | https://www.meteor.com/                     | 3             |
+| 18  | Cherrypy      | Python           | https://docs.cherrypy.dev/en/latest/        | 2             |
+| 19  | Mojolicious   | Perl             | https://mojolicious.org/                    | 2             |
+| 20  | Catalyst      | Perl             | http://catalyst.perl.org/                   | 2             |
+| 21  | Genie         | Julia            | https://genieframework.com/                 | 3             |

@@ -1,4 +1,4 @@
-# Seminarske naloge 2023
+# Seminarske naloge 2024
 
 ## Splošno o seminarskih nalogah
 Teme seminarskih nalog obsegajo različna ogrodja za razvoj spletnih strani/aplikacij, ki

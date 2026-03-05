@@ -19,7 +19,7 @@ class domov:
 # razred za pridobivanje podatkov
 class rezultati:
     def GET(self):
-        response = requests.get("http://0.0.0.0:8081/api/tekmovalci/")
+        response = requests.get("http://127.0.0.1:8081/api/tekmovalci/")
         odgovor = response.status_code
         if odgovor == 200:
             rezultat = json2html.convert(json=response.json())

@@ -1,5 +1,5 @@
 <p align="center">
-<h3>Orodja za razvoj aplikacij (vaje) 2024/2025</h3> <br>
+<h3>Orodja za razvoj aplikacij (vaje) 2025/2026</h3> <br>
   <img alt="logo" width="300" src=".github/images/logo.png">
 </p>
 
